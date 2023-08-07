@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Api", "1.Api", "{5A64A6E7-D5D0-45B2-B367-C99E3EDDAB2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{C377F1BB-33A1-4457-A756-B4468100560E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Core", "3.Core", "{65ECA955-50C4-4407-8CDA-CA139DFAC522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{141E238E-AC73-4BA1-A0B2-0748C15E9CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackShopV2.WebApi", "JackShopV2.WebApi\JackShopV2.WebApi.csproj", "{28E65058-3ADC-41C3-9A25-0DBB2DABC3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackShopV2.Application", "JackShopV2.Application\JackShopV2.Application.csproj", "{69168BB5-FE92-46D5-9907-BCBBF5492A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackShopV2.Core", "JackShopV2.Core\JackShopV2.Core.csproj", "{28EAC4D9-728F-4838-A9D5-FA1C752CEFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackShopV2.Infrastructure", "JackShopV2.Infrastructure\JackShopV2.Infrastructure.csproj", "{4A86D96D-690D-41EA-9DED-789233DF4805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E65058-3ADC-41C3-9A25-0DBB2DABC3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E65058-3ADC-41C3-9A25-0DBB2DABC3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E65058-3ADC-41C3-9A25-0DBB2DABC3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E65058-3ADC-41C3-9A25-0DBB2DABC3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69168BB5-FE92-46D5-9907-BCBBF5492A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69168BB5-FE92-46D5-9907-BCBBF5492A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69168BB5-FE92-46D5-9907-BCBBF5492A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69168BB5-FE92-46D5-9907-BCBBF5492A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EAC4D9-728F-4838-A9D5-FA1C752CEFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EAC4D9-728F-4838-A9D5-FA1C752CEFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EAC4D9-728F-4838-A9D5-FA1C752CEFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EAC4D9-728F-4838-A9D5-FA1C752CEFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A86D96D-690D-41EA-9DED-789233DF4805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A86D96D-690D-41EA-9DED-789233DF4805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A86D96D-690D-41EA-9DED-789233DF4805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A86D96D-690D-41EA-9DED-789233DF4805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28E65058-3ADC-41C3-9A25-0DBB2DABC3F1} = {5A64A6E7-D5D0-45B2-B367-C99E3EDDAB2E}
+		{69168BB5-FE92-46D5-9907-BCBBF5492A76} = {C377F1BB-33A1-4457-A756-B4468100560E}
+		{28EAC4D9-728F-4838-A9D5-FA1C752CEFAA} = {65ECA955-50C4-4407-8CDA-CA139DFAC522}
+		{4A86D96D-690D-41EA-9DED-789233DF4805} = {141E238E-AC73-4BA1-A0B2-0748C15E9CE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62F95B31-2258-4AA4-A864-0535AE805B3E}
+	EndGlobalSection
+EndGlobal
