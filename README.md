@@ -1,4 +1,4 @@
-# JackShopV2
+# Api JackShop V2
 
 Microservico simples, reatorada do Instrutor LuisDev, muito bom profissinal. Porem ele desenvolveu em MongoDB e refatorei para usar com o MySql, aplicando dominios ricos, validacoes no dominio, Repository Pattern e UnitOfWork, alem de fazer o mapeamento de DTOs sem o uso do AutoMapper ou algum framework do genero.
 
